@@ -1,0 +1,149 @@
+/*css intermedio*/
+body {
+  margin: 0; /* hace que todo lo que esté dentro de body quede con un margen de 0 */
+  text-align: center;/* hace que todo quede en el centro*/
+  font-family: 'Merriweather', serif; /* cambia el tipo de letra */
+  color: #40514E;
+}
+
+p{
+  line-height: 2; /* pone espacios entre las lineas de texto */
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+
+}
+.top-container {
+  background-color: #EAF6F6; /* cambia el color de fondo del contenedor o div */
+  position: relative; /* relative sirve para cambiar la posicion de un elemento sin que las demas cosas a su alrededor se vean afectadas*/
+  padding-top: 100px; /* sirve llevar la imagen hasta arriba al 100% */
+
+}
+
+h1 {
+  margin: 50px auto 0 auto; /* se usa la regla de derecha a izquierda para cambiar cada lado del margen siendo up, right, bottom and left */
+  font-size: 5.625rem; /* rem se usa para que la letra se pueda ajustar a las preferencias o configuracion que tenga el navegador y la r se agrega para que
+  ese especifico item cambie sin tomar en cuenta el size que tenga especificado en el parent */
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF; /* cambia el color de la letra*/
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
+
+}
+
+.sub{
+  font-weight: normal; /* cambia el grosor de la letra */
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E;
+}
+
+.pro {
+  text-decoration: underline; /* sirve para poner una linea ya sea abajo, en medio o arriba del texto */
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.profile-img{
+  border-radius: 100%; /* redondea la imagen  */
+}
+
+.skill-img{
+border-radius: 100%;
+width: 25%;
+margin-right: 30px;
+float: left; /* Pone la imagen al lado del texto*/
+}
+.skill-img2{
+border-radius: 100%;
+width: 25%;
+margin-left: 30px;
+float: right; /* Pone la imagen al lado del texto*/
+}
+
+.skill-row{
+  display: block;
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left; /* pone todo del lado que se espefique sin tomar en cuenta lo que este en el parent */
+}
+.middle-container{
+margin: 100px 0;
+}
+
+.bottom-container {
+background-color: #66BFBF;
+padding-bottom: 30px;
+padding-top: 40px;
+}
+.BUTTON_ZAS {
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -webkit-gradient(to bottom, #66BFBF, #11999E);
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   color: #EAF6F6;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 18px;
+   font-weight: 100;
+   padding: 14px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 20px;
+}
+
+.BUTTON_ZAS:hover {
+   background: #11999E;
+   border: solid #0059A0 2px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   text-decoration: none;
+}
+.contact-message{
+  width: 40%;
+  margin: auto;
+  margin-top: 40px;
+}
+.footer-link{
+  color: #11999E;
+  text-decoration: none;
+  margin: 20px;
+}
+
+a:hover{
+  color: #EAF6F6
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.bottom-cloud {
+  position: absolute; /* permite cambiar la posicion de la imagen pero afectando lo que esta a su alrededor */
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
